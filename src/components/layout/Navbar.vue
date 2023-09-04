@@ -64,7 +64,7 @@ export default {
             v-clipboard:copy="copy">
             <img
               src="../../assets/favicon.svg"
-              class="w-12 rounded-full object-cover mr-2"
+              class="w-4.5rem rounded-full object-cover mr-2"
               alt="logo" />
             <span class="text-3xl font-bold"></span>
           </router-link>
