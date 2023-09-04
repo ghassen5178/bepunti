@@ -66,7 +66,7 @@ export default {
               src="../../assets/favicon.svg"
               class="w-12 rounded-full object-cover mr-2"
               alt="logo" />
-            <span class="text-3xl font-bold">Bepunti</span>
+            <span class="text-3xl font-bold"></span>
           </router-link>
         </div>
         <div class="hidden md:flex items-center">
