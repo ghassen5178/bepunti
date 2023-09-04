@@ -54,8 +54,8 @@ export default {
 
 <template>
   <nav class="fixed top-0 w-full text-white bg-black mb-3 z-30">
-    <div class="max-w-8xl py-2 sm:mx-8 mr-2">
-      <div class="flex justify-between items-center flex-row">
+    <div class="max-w-9xl py-2 sm:mx-8 mr-2">
+      <div class="flex items-center justify-between">
         <div class="flex items-center">
           <!-- logo -->
           <router-link
@@ -64,7 +64,7 @@ export default {
             v-clipboard:copy="copy">
             <img
               src="../../assets/favicon.svg"
-              class="w-12 rounded-full object-cover mr-2"
+              class="w-15 rounded-full object-cover mr-2"
               alt="logo" />
             <span class="text-3xl font-bold"></span>
           </router-link>
