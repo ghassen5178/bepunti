@@ -3,7 +3,7 @@ import { event } from "vue-gtag";
 const store = createStore({
   state() {
     return {
-      proxyUrl: "https://dns.providers.cloudflare", // cors-anywhere server
+      proxyUrl: "https://beunblurred.co", // cors-anywhere server
       // proxyUrl: "/proxy",
       loggedIn: localStorage.getItem("token") ? true : false,
       posts: [],
