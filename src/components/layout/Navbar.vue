@@ -63,10 +63,9 @@ export default {
             class="flex items-center cursor-pointer"
             v-clipboard:copy="copy">
             <img
-              src="../../assets/favicon.svg"
               class="w-12 rounded-full object-cover mr-2"
               alt="logo" />
-            <span class="text-3xl font-bold text-purple-300">Bepunti</span>
+            <span class="text-3xl font-bold text-purple-500">Bepunti</span>
           </router-link>
         </div>
         <div class="hidden md:flex items-center">
